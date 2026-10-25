@@ -1,0 +1,20 @@
+{
+  "id": "builtin.material",
+  "name": "Material 3 · Google",
+  "version": "2.0",
+  "author": "VibeBoard",
+  "description": "Клавиатура по гайдлайнам Material 3 от Google, как в Gboard: цвета Material You, клавиши-прямоугольники со скруглением, тональные служебные клавиши, подсказки текстом.",
+  "icon": "🟣",
+  "enabledByDefault": true,
+  "skin": {
+    "keyboard": { "corner": 20 },
+    "keys": {
+      "*": { "radius": 8, "pressedRadius": 8, "press": "scale", "pressScale": 0.97 },
+      "space": { "radius": 8 },
+      "enter": { "shape": "pill" }
+    },
+    "popup": { "radius": 12 },
+    "chips": { "material": "none" },
+    "buttons": { "material": "none" }
+  }
+}
